@@ -9,7 +9,7 @@
             If you're wondering how the CSS file below is being loaded.
         -->
 
-  <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  <link href="/css/styles.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -22,18 +22,18 @@
           </div>
       <% end %>
 
-<div class="logo"><a href="/spaces"><img src="images/logo_bnb.png"></a></div>
+<div class="logo"><a href="/spaces"><img src="/images/logo_bnb.png"></a></div>
 
       <div class="nav">
         <ul>
           <% if logged_in? %>
-            <li><a href="spaces">Spaces</a>
+            <li><a href="/spaces">Spaces</a>
             </li>
-            <li><a href="requests">Requests</a>
+            <li><a href="/requests">Requests</a>
             </li>
           <% end %>
           <% if !logged_in? %>
-            <li><a href="login">Login</a>
+            <li><a href="/login">Login</a>
             </li>
           <% end %>
           <% if logged_in? %>
