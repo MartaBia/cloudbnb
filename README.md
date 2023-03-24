@@ -72,26 +72,12 @@ From those we started to build our MVP
 
 Here are some screen of our final product:
 
-![sign up](images/sign-up.jpg)
-
-![log in](images/log-in.jpg)
-
-![homepage](images/homepage.jpg)
-
-![homepage calendar](images/homepage-calendar.jpg)
-
-![requests page](images/requests.jpg)
-
-![space page](images/space.jpg)
-
-<p align="center">
-<img src="images/sign-up.jpg" />
-<img src="images/log-in.jpg" />
-<img src="images/homepage.jpg" />
-<img src="images/homepage-calendar.jpge" />
-<img src="images/requests.jpg" />
-<img height="35" src="images/space.jpg" />
-</p>
+![sign up](images/sign-up.png)
+![log in](images/log-in.png)
+![homepage](images/homepage.png)
+![homepage calendar](images/homepage-calendar.png)
+![space page](images/space.png)
+![requests page](images/requests.png)
 
 <!-- ## How to use
 
