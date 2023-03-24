@@ -79,6 +79,13 @@ Here are some screen of our final product:
 ![space page](images/space.png)
 ![requests page](images/requests.png)
 
+## To add 
+
+- Style the speace section of the bookings page
+- Add approve/deny buttons to booking requests
+- Add images to spaces
+- Add the availability in a calendar format
+
 <!-- ## How to use
 
 To access the database from the controller (app.rb) we can access any table as we would any object in ruby.
