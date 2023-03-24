@@ -1,6 +1,6 @@
 # CloudBnB
 
-CloudBnB is an AirBnB clone, developed by a group of six students at Makers Academy as one-week engineering project.
+CloudBnB is an AirBnB clone, developed by six students at Makers Academy as a one-week engineering project.
 The program is developed in Ruby, using Sinatra, and tested with RSpec. Active Records was used to set the database.
 
 ## Set up
@@ -10,7 +10,7 @@ Before running this program make sure you have Ruby installed on your machine by
 
 `ruby -v`
 
-Otherwise you can install it by following the instructions reported [on the Ruby website](https://www.ruby-lang.org/en/documentation/installation/)
+Otherwise, you can install it by following the instructions reported [on the Ruby website](https://www.ruby-lang.org/en/documentation/installation/)
 
 Run the server by typing:
 
@@ -66,11 +66,11 @@ Then we designed our database system:
 
 ![database](images/database.jpg)
 
-From those we started to build our MVP
+From those, we started to build our MVP
 
 ## In action
 
-Here are some screen of our final product:
+Here are some screens of our final product:
 
 ![sign up](images/sign-up.png)
 ![log in](images/log-in.png)
@@ -81,7 +81,7 @@ Here are some screen of our final product:
 
 ## To add 
 
-- Style the speace section of the bookings page
+- Style the space section of the bookings page
 - Add approve/deny buttons to booking requests
 - Add images to spaces
 - Add the availability in a calendar format
@@ -133,4 +133,4 @@ user.save ? '/' : "Failed to add user!"
 # if successful we will redirect, otherwise return a fail message
 ```
 
-[This documentation](https://guides.rubyonrails.org/active_record_basics.html) is really helpful and clear and goes over all the basics methods that we might need. -->
+[This documentation](https://guides.rubyonrails.org/active_record_basics.html) is helpful and clear and goes over all the basic methods that we might need. -->
