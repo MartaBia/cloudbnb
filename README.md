@@ -1,25 +1,24 @@
-# MakersBnB Project Seed
+# CloudBnB
 
-This repo contains the seed codebase for the MakersBnB project in Ruby (using Sinatra and RSpec).
+CloudBnB is an AirBnB clone, developed by a group of six students at Makers Academy as one-week engineering project.
+The program is developed in Ruby, using Sinatra, and tested with RSpec. Active Records was used to set the database.
 
-Someone in your team should fork this seed repo to their Github account. Everyone in the team should then clone this fork to their local machine to work on it.
+## Set up
+### How to run the program
 
-## Setup
+Before running this program make sure you have Ruby installed on your machine by typing in your terminal:
 
-### Basic
+`ruby -v`
 
-```bash
-# Install gems
-bundle install
+Otherwise you can install it by following the instructions reported [on the Ruby website](https://www.ruby-lang.org/en/documentation/installation/)
 
-# Run the tests
-rspec
+Run the server by typing:
 
-# Run the server (better to do this in a separate terminal).
-rackup
-```
+`rackup` 
 
-### Database
+Better to do this in a separate terminal.
+
+### Set the database
 
 To set up the database on your local machine:
 
@@ -41,7 +40,60 @@ rake db:seed RACK_ENV="test"
 
 Now if you check the tables in TablePlus you should see that the databases have been added (for both development and for test) and that the tables are now populated with dummy data.
 
-## How to use
+### Tests
+To run the tests you will need to install rspec on your console:
+
+```Bash
+gem install bundler
+bundle add rspec
+```
+
+then you can run the tests by typing:
+
+`rspec`
+
+from the root directory of the project.
+
+![tests outcome](images/tests.png)
+
+## Process 
+
+We started designing our program starting from some user stories:
+
+![user stories](images/user-stories.png)
+
+Then we designed our database system:
+
+![database](images/database.jpg)
+
+From those we started to build our MVP
+
+## In action
+
+Here are some screen of our final product:
+
+![sign up](images/sign-up.jpg)
+
+![log in](images/log-in.jpg)
+
+![homepage](images/homepage.jpg)
+
+![homepage calendar](images/homepage-calendar.jpg)
+
+![requests page](images/requests.jpg)
+
+![space page](images/space.jpg)
+
+<p align="center">
+<img src="images/sign-up.jpg" />
+<img src="images/log-in.jpg" />
+<img src="images/homepage.jpg" />
+<img src="images/homepage-calendar.jpge" />
+<img src="images/requests.jpg" />
+<img height="35" src="images/space.jpg" />
+</p>
+
+<!-- ## How to use
 
 To access the database from the controller (app.rb) we can access any table as we would any object in ruby.
 
@@ -88,4 +140,4 @@ user.save ? '/' : "Failed to add user!"
 # if successful we will redirect, otherwise return a fail message
 ```
 
-[This](https://guides.rubyonrails.org/active_record_basics.html) is really helpful and clear and goes over all the basics methods that we might need.
+[This documentation](https://guides.rubyonrails.org/active_record_basics.html) is really helpful and clear and goes over all the basics methods that we might need. -->
